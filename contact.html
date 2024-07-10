@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>nscreativestudio</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="icon" href="img/LOGO_ATAS.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Roboto+Slab&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fe06fd9987.js" crossorigin="anonymous"></script>
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="fccf83a2-af5f-4980-96de-90501e4b3dfd";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    </head>
+    <body>
+       <section class="sub-header">
+           <nav>
+               <a href="index.html"><img src="img/LOGO_SINGKAT.png" alt="LOGO_SINGKAT"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                   <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   </ul>
+               </div>
+               <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+           </nav>
+           <h1>Contact Us</h1>
+       </section>
+
+<section class="lokasi">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5076742746846!2d106.8941138!3d-6.457174799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eaa131ff97a7%3A0xbf263d4f3f76b909!2sJl.%20Rambutan%20III%2C%20Gn.%20Putri%2C%20Kec.%20Gn.%20Putri%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016961!5e0!3m2!1sid!2sid!4v1654656041028!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Jalan Rambutan III Gunung Putri</h5>
+                    <p>Kab. Bogor, Jawa Barat</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+62 81282524002</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>nscreativestudio@outlook.co.id</h5>
+                    <p>Email us</p>
+                </span>
+            </div>
+        </div> 
+        <div class="contact-col">
+            <form action="form-handler.php" method="POST">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <p class="footer-copyright"> &copy; 2022 nscreativestudio</p>
+</section>
+       <script src="assets/menu.js"></script>
+    </body>
+</html>
